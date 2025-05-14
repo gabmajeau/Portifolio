@@ -32,17 +32,35 @@
 .container{
   display: grid;
   text-align: center;
-  margin-top: 6%;
   color: whitesmoke;
   animation: fadein 3s forwards;
- border: 1px white solid;
+ padding: 2.5rem;
+ margin: 6% 15% 0 15%;
+ background-color:rgb(9, 144, 255);
+ border-radius: 10px;
  
     a{  font-weight: bold;
         text-decoration: none;
         font-family: 'Segoe UI', sans-serif;
         color: whitesmoke;
         font-size: 180%;
-            }
+        color:rgb(140, 228, 255);
+        background-color:rgb(9, 144, 255);
+
+      }
+    h3{
+      color: rgb(140, 228, 255);
+      background-color:rgb(9, 144, 255);
+      margin-bottom: 2%;
+
+      }
+
+    h4{
+      margin-top: 1%;
+      text-align: left;
+      font-size: 110%;
+      background-color:rgb(9, 144, 255);
+    }
 
 
 }
