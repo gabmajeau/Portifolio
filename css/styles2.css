@@ -1,0 +1,48 @@
+*{background-color: #1b1b1b;
+ font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+
+  }
+
+@keyframes fadein {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.palavra{
+  color: rgb(96, 159, 211);
+}
+
+.title{
+  display: grid;
+  text-align: center;
+  margin-top: 2%;
+  color: whitesmoke;
+  animation: fadein 3s forwards;
+  h1{
+  font-size: 450%;
+  }
+  i{
+    margin-top: 1%;
+    font-size: 105%;
+  }
+}
+
+.container{
+  display: grid;
+  text-align: center;
+  margin-top: 6%;
+  color: whitesmoke;
+  animation: fadein 3s forwards;
+ border: 1px white solid;
+ 
+    a{  font-weight: bold;
+        text-decoration: none;
+        font-family: 'Segoe UI', sans-serif;
+        color: whitesmoke;
+        font-size: 180%;
+            }
+
+
+}
