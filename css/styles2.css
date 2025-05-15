@@ -2,7 +2,7 @@
  font-family: 'Segoe UI', sans-serif;
   margin: 0;
   padding: 0;
-
+  cursor: default;
   }
 
 @keyframes fadein {
@@ -38,6 +38,9 @@
  margin: 6% 15% 0 15%;
  background-color:rgb(9, 144, 255);
  border-radius: 10px;
+ box-shadow: 1px 4px 71px 15px rgba(0,0,0,0.67);
+-webkit-box-shadow: 1px 4px 71px 15px rgba(0,0,0,0.67);
+-moz-box-shadow: 1px 4px 71px 15px rgba(0,0,0,0.67);
  
     a{  font-weight: bold;
         text-decoration: none;
@@ -46,7 +49,7 @@
         font-size: 180%;
         color:rgb(140, 228, 255);
         background-color:rgb(9, 144, 255);
-
+        cursor:pointer;
       }
     h3{
       color: rgb(140, 228, 255);
@@ -63,4 +66,151 @@
     }
 
 
+}
+
+.navbar{
+  animation: fadein 3s forwards;
+  padding: 2rem;
+
+    ul{
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+    list-style: none;
+    padding: 2.5rem;
+    border-radius: 15px;
+    background-color: #3b3b3b;
+    box-shadow: -1px 13px 40px 19px rgba(0,0,0,0.67);
+-webkit-box-shadow: -1px 13px 40px 19px rgba(0,0,0,0.67);
+-moz-box-shadow: -1px 13px 40px 19px rgba(0,0,0,0.67);
+
+
+      li, a{
+      color: whitesmoke;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-family: 'Segoe UI', sans-serif;
+      font-size: 135%;
+      font-weight: bold;
+      border-bottom: 3.5px #3b3b3b solid;
+      transition: 0.8s;
+      cursor:pointer;
+      background-color: #3b3b3b;
+
+    }
+
+      a:hover{
+        border-bottom: 3.5px whitesmoke solid;
+        border-radius: 1px;
+    }
+  }
+}
+
+
+
+
+/* e-mail.html */
+
+.formulario {
+
+  border-radius: 15px;
+  padding: 3.5rem;
+  max-width: 600px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-family: 'Segoe UI', sans-serif;
+  color: whitesmoke;
+   animation: fadein 3s forwards;
+   font-size: 120%;
+}
+
+.linha {
+  display: flex;
+  gap: 20px;
+
+}
+
+.campo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  label{
+    margin-bottom: 3%;
+  }
+}
+
+.formulario input,
+.formulario textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: #2b2b2b;
+  color: whitesmoke;
+box-shadow: 1px 4px 27px 10px rgba(0,0,0,0.42) inset;
+-webkit-box-shadow: 1px 4px 27px 10px rgba(0,0,0,0.42) inset;
+-moz-box-shadow: 1px 4px 27px 10px rgba(0,0,0,0.42) inset;
+  }
+
+.formulario button {
+  padding: 10px;
+  background-color: rgb(83, 140, 187);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 90%;
+box-shadow: 1px 4px 82px 14px rgba(0,0,0,0.46);
+-webkit-box-shadow: 1px 4px 82px 14px rgba(0,0,0,0.46);
+-moz-box-shadow: 1px 4px 82px 14px rgba(0,0,0,0.46);
+}
+
+.formulario button:hover {
+  background-color: rgb(72, 124, 167);
+}
+
+
+.return{
+  display: flex;
+  justify-content: center; 
+   animation: fadein 3s forwards;
+  a{
+    text-decoration: none;
+    padding: 10px;
+  background-color: rgb(83, 140, 187);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 1px 4px 62px 38px rgba(0,0,0,1);
+-webkit-box-shadow: 1px 4px 62px 38px rgba(0,0,0,1);
+-moz-box-shadow: 1px 4px 62px 38px rgba(0,0,0,1);
+font-size: 110%;
+margin-top: -3%;
+}
+a:hover{
+  background-color: rgb(72, 124, 167);
+}
+
+
+}
+
+.fade {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: #1b1b1b;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.8s;
+  z-index: 999;
+}
+
+.fade.active {
+  opacity: 1;
+  pointer-events: auto;
 }
