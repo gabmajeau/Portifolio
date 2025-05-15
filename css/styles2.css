@@ -36,7 +36,7 @@
   animation: fadein 3s forwards;
  padding: 2.5rem;
  margin: 6% 15% 0 15%;
- background-color:rgb(9, 144, 255);
+ background-color:#3b3b3b;
  border-radius: 10px;
  box-shadow: 1px 4px 71px 15px rgba(0,0,0,0.67);
 -webkit-box-shadow: 1px 4px 71px 15px rgba(0,0,0,0.67);
@@ -45,15 +45,14 @@
     a{  font-weight: bold;
         text-decoration: none;
         font-family: 'Segoe UI', sans-serif;
-        color: whitesmoke;
         font-size: 180%;
-        color:rgb(140, 228, 255);
-        background-color:rgb(9, 144, 255);
+        color:rgb(96, 159, 211);
+        background-color:#3b3b3b;
         cursor:pointer;
       }
     h3{
-      color: rgb(140, 228, 255);
-      background-color:rgb(9, 144, 255);
+      color: rgb(96, 159, 211);
+      background-color:#3b3b3b;
       margin-bottom: 2%;
 
       }
@@ -62,7 +61,7 @@
       margin-top: 1%;
       text-align: left;
       font-size: 110%;
-      background-color:rgb(9, 144, 255);
+      background-color:#3b3b3b;
     }
 
 
@@ -75,7 +74,7 @@
     ul{
     display: flex;
     justify-content: center;
-    gap: 15%;
+    gap: 12%;
     list-style: none;
     padding: 2.5rem;
     border-radius: 15px;
@@ -86,7 +85,7 @@
 
 
       li, a{
-      color: whitesmoke;
+      color: rgb(96, 159, 211);
       text-decoration: none;
       text-transform: uppercase;
       font-family: 'Segoe UI', sans-serif;
