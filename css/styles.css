@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #292929;
+  background:#292929;
   font-family: 'Segoe UI', sans-serif;
 }
 
@@ -11,11 +11,14 @@ body {
 }
 
 .begin {
-  display: grid;
+ display: ou inline-block ;
+  justify-content: center; 
   text-align: center;
   color: whitesmoke;
-  margin-top: 12%;
+  margin-top: 13%;
   animation: fadein 3s forwards;
+  margin-left: auto; 
+  margin-right: auto;
 
 
 h1 {
@@ -25,7 +28,7 @@ h1 {
 }
 
 h3 {
- 
+  margin-bottom: 6%;
   cursor: default;
 }
 
@@ -38,9 +41,6 @@ a {
   transition: 1s;
 }
 
-a:hover {
-  font-size: 205%;
-}
 }
 
 @keyframes fadein {
@@ -62,15 +62,6 @@ a:hover {
 .fade.active {
   opacity: 1;
   pointer-events: auto;
-}
-
-.transition-text {
-  opacity: 0;
-  animation: appear 1s forwards 0.3s;
-}
-
-@keyframes appear {
-  to { opacity: 1; }
 }
 
 .nome {
