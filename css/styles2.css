@@ -548,6 +548,20 @@ animation: fadein 3s forwards;
       }
   }
 
+.btn-play{
+    background-color: #3b3b3b;
+    margin-top: 6%;
+    a{
+      padding: 6px 26px;
+border-radius: 15px;
+background-color:rgb(83, 138, 184) ;
+color: white;}
+  }
+
+  .btn-play:hover{
+
+a{background-color:rgb(61, 126, 179) ;}}
+
 
 
 
