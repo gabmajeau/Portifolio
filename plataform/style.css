@@ -164,6 +164,16 @@ body {
       
 }
 
+ @media (max-width: 768px) {
+  #volume-control{
+    display: none;
+  }
+  #hud{
+    label{display: none;}
+  }
+ }
+
+
 
 
 
