@@ -434,6 +434,22 @@ a:hover{
 display: none;
 animation: fadein 3s forwards;
   }
+
+.btn-play{
+    background-color: #3b3b3b;
+    margin-top: 6%;
+    a{
+      padding: 6px 26px;
+border-radius: 15px;
+background-color:rgb(83, 138, 184) ;
+color: white;}
+  }
+
+  .btn-play:hover{
+
+a{background-color:rgb(61, 126, 179) ;
+ 
+ }
     @media (max-width: 768px) {
 
       .aboutmeimg{
@@ -546,21 +562,19 @@ animation: fadein 3s forwards;
     text-align: center;
     margin-bottom: 4%;
       }
-  }
-
-.btn-play{
-    background-color: #3b3b3b;
+      .btn-play{
+    background-color: #1b1b1b;
     margin-top: 6%;
+    margin-bottom: 6%;
     a{
-      padding: 6px 26px;
+      padding: 10px 20px;
+      font-size: 130%;
 border-radius: 15px;
 background-color:rgb(83, 138, 184) ;
 color: white;}
   }
 
-  .btn-play:hover{
-
-a{background-color:rgb(61, 126, 179) ;}}
+}
 
 
 
