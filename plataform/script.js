@@ -53,6 +53,7 @@ function startMusic() {
 }
 
 document.addEventListener('click', startMusic);
+document.addEventListener('touchstart', startMusic);
 
 function jump() {
   if (!isJumping && gameRunning) {
@@ -98,6 +99,9 @@ function showMilestone(text) {
 document.addEventListener('keydown', (e) => {
   if (e.code === 'Space') jump();
 });
+
+document.addEventListener('touchstart', jump);
+
 
 function gameOver() {
   gameRunning = false;
