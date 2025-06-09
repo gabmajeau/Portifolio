@@ -27,3 +27,13 @@
       menu.classList.remove('show');
     }
   });
+
+  
+  function playSoundThenRedirect() {
+    const audio = document.getElementById("meuAudio");
+    audio.play();
+    setTimeout(() => {
+      window.location.href = "https://gabmajeau.github.io/Zelda-TailwindCSS/";
+    }, 1000); // espera 1 segundo antes de redirecionar
+  }
+
