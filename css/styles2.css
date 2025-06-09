@@ -88,6 +88,8 @@
       font-size: 110%;
       background-color:#3b3b3b;
     }
+
+    h5{background-color: #3b3b3b;}
 }
 
    .video1{
@@ -448,6 +450,60 @@ color: white;}
   .btn-play:hover{
 
 a{background-color:rgb(61, 126, 179) ;}}
+
+.zelda{
+  display: grid;
+ text-align: center;
+ color: whitesmoke;
+ animation: fadein 3s forwards;
+ padding: 2.5rem;
+ margin: 6% 15% 0 15%;
+ background-color:#3b3b3b;
+ border-radius: 10px;
+ box-shadow: 1px 4px 71px 15px rgba(0,0,0,0.67);
+-webkit-box-shadow: 1px 4px 71px 15px rgba(0,0,0,0.67);
+-moz-box-shadow: 1px 4px 71px 15px rgba(0,0,0,0.67);
+ 
+    a{  font-weight: bold;
+        text-decoration: none;
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 180%;
+        color:rgb(96, 159, 211);
+        background-color:#3b3b3b;
+        cursor:pointer;
+        border-bottom: 2px #3b3b3b solid;
+    }
+
+    h3{
+      color: rgb(96, 159, 211);
+      background-color:#3b3b3b;
+      margin-bottom: 2%;
+
+      }
+
+    h4{
+      margin-top: 1%;
+      text-align: left;
+      font-size: 110%;
+      background-color:#3b3b3b;
+    }
+}
+
+   .videoz{
+      width:70%; 
+      height:99%; 
+      border: 6px #1d1d1d solid;
+      transition: 0.8s;
+
+       }
+       
+    .videoz:hover{
+
+      border: 6px rgb(96, 159, 211) solid;
+
+       }
+
+
     @media (max-width: 768px) {
 
       .aboutmeimg{
@@ -478,7 +534,7 @@ a{background-color:rgb(61, 126, 179) ;}}
              }
 
             h4{background-color: #1d1d1d;}
-          
+          h5{background-color: #1d1d1d;}
           
          .video1
          {width: 100%;
@@ -572,7 +628,9 @@ border-radius: 15px;
 background-color:rgb(83, 138, 184) ;
 color: white;}
   }
-  }
+
+
+}
 
 
 
