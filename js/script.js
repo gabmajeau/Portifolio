@@ -21,7 +21,7 @@
     menu.classList.toggle('show');
   });
 
-  // Fecha o menu se clicar fora dele
+
   window.addEventListener('click', (e) => {
     if (!btn.contains(e.target) && !menu.contains(e.target)) {
       menu.classList.remove('show');
@@ -34,6 +34,7 @@
     audio.play();
     setTimeout(() => {
       window.location.href = "https://gabmajeau.github.io/Zelda-TailwindCSS/";
-    }, 1000); // espera 1 segundo antes de redirecionar
+    }, 1000); 
   }
+
 

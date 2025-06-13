@@ -90,6 +90,7 @@
     }
 
     h5{background-color: #3b3b3b;}
+    p{color: #9c9c9c; font-size: 90%; font-weight: lighter; background: #3b3b3b;}
 }
 
    .video1{
@@ -154,6 +155,10 @@
       text-align: left;
       font-size: 110%;
       background-color:#ffffff;
+    }
+
+    p{
+      background: white;
     }
 }
 
@@ -541,6 +546,8 @@ a{background-color:rgb(61, 126, 179) ;}}
           border: 4px rgb(96, 159, 211) solid;
           background-color: #1d1d1d;
         }
+
+        p{background-color: #1d1d1d;}
              
     }
 
